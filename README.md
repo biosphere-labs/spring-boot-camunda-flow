@@ -1,5 +1,7 @@
 # Enhanced Camunda Subscription Annotations
 
+> **Status:** Experimental library. This project explores reducing Camunda external task handler boilerplate through custom annotations. It is functional but has not been production-tested and lacks comprehensive test coverage.
+
 Introducing a seamless way to integrate Camunda service tasks without tightly binding your code to the Camunda API by having to define handlers for service tasks. This approach improves how you can manage your service tasks, making them more maintainable, unit testable, readable, and reducing boilerplate.
 It currently uses camunda's External Task Client to handle the subscription and execution of the service task. But in future we hope to add support for kafka and other messaging systems.
 
